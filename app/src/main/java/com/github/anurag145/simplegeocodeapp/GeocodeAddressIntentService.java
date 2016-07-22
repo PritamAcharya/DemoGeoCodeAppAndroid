@@ -22,12 +22,13 @@ public class GeocodeAddressIntentService extends IntentService {
     private static final String TAG = "GEO_ADDY_SERVICE";
     public static final int SUCCESS_RESULT = 0;
     public static final int FAILURE_RESULT = 1;
-
+    public static final String PACKAGE_NAME =
+            "com.github.anurag145.simplegeocodeapp;";
     public static final int USE_ADDRESS_NAME = 1;
     public static final int USE_ADDRESS_LOCATION = 2;
 
-    public static final String PACKAGE_NAME =
-            "com.sample.foo.simplelocationapp";
+
+
     public static final String RECEIVER = PACKAGE_NAME + ".RECEIVER";
     public static final String RESULT_DATA_KEY = PACKAGE_NAME + ".RESULT_DATA_KEY";
     public static final String RESULT_ADDRESS = PACKAGE_NAME + ".RESULT_ADDRESS";
