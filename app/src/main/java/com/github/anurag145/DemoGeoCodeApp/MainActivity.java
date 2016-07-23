@@ -1,11 +1,9 @@
-package com.github.anurag145.simplegeocodeapp;
+package com.github.anurag145.DemoGeoCodeApp;
 
 import android.content.Intent;
 import android.location.Address;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.Parcel;
-import android.os.Parcelable;
 import android.os.ResultReceiver;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -38,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     public static final int USE_ADDRESS_NAME = 1;
     public static final int USE_ADDRESS_LOCATION = 2;
     public static final int SUCCESS_RESULT = 0;
-    public static final int FAILURE_RESULT = 1;
+
 
     private static final String TAG = "MAIN_ACTIVITY";
     @Override

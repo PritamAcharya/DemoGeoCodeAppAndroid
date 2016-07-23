@@ -1,4 +1,4 @@
-package com.github.anurag145.simplegeocodeapp;
+package com.github.anurag145.DemoGeoCodeApp;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
